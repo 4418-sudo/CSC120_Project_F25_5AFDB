@@ -1,6 +1,5 @@
-game_name = ("Totally,Real!")
-print("Welcome to", game_name) # TODO, print greetings with game name 
+game_name = ("Totally,Real")
+print("Welcome to ", game_name, "!", sep = "") # TODO, print greetings with game name 
 print("========================")
-print("Before we begin, what is your character name?")
-character_name = input() 
+character_name = input("Before we begin, what is your character name? \n> ") 
 print("Great, ", character_name,"!", " Lets begin the adventure!", sep="")
